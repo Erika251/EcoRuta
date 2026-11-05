@@ -1,0 +1,45 @@
+🌿 EcoRuta
+
+Tecnología para un futuro más sostenible
+
+EcoRuta es una plataforma virtual orientada a la concientización ambiental y la promoción de la movilidad sostenible. Su aplicación móvil permite a los usuarios consultar, registrar y dar seguimiento a diversas acciones ecológicas cotidianas.
+
+Gracias a su arquitectura modular, se conecta de manera segura a servicios en la nube para proteger los datos, almacenar información y sincronizar el impacto ambiental generado.
+
+👥 Equipo de Desarrollo
+Este proyecto fue desarrollado con dedicación por:
+- Mariana Erandy Luz Luz
+- Valeria Hernández Nava
+- María Erika Piña Linares
+
+🚀 Características Principales
+🌱 Registro y Consulta de Acciones Ecológicas
+
+Permite documentar hábitos sostenibles, rutas de movilidad limpia y actividades ambientales.
+
+☁️ Integración Segura con la Nube
+
+Conexión con servicios cloud para resguardar la información del usuario.
+
+🌎 Cálculo de Impacto Ambiental
+
+Estimación del ahorro en emisiones de carbono y otros indicadores ecológicos.
+
+🚲 Monitoreo de Rutas Sostenibles
+
+Registro y optimización de trayectos amigables con el medio ambiente.
+
+✨ Interfaz Intuitiva y Accesible
+
+Diseño centrado en la experiencia de usuario (UX/UI).
+
+🛠️ Tecnologías y Herramientas
+- Plataforma: Android Native
+- Lenguajes: Kotlin / Java
+- Servicios en la nube: Firebase / API REST
+- Entorno de desarrollo: Android Studio
+- Sistema de construcción: Gradle
+- Control de versiones: Git y GitHub
+
+🌿 EcoRuta Android
+Promoviendo una movilidad más sostenible y un futuro mejor.
