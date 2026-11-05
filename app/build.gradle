@@ -1,0 +1,59 @@
+plugins {
+    alias(libs.plugins.android.application)
+}
+
+// Firebase se conecta con el archivo google-services.json (se descarga de la consola de Firebase).
+// Mientras no esté, la app compila igual y avisa en la pantalla de entrada.
+if (file('google-services.json').exists()) {
+    apply plugin: 'com.google.gms.google-services'
+}
+
+android {
+    namespace 'mx.ecoruta.app'
+    compileSdk {
+        version = release(36) {
+            minorApiLevel = 1
+        }
+    }
+
+    defaultConfig {
+        applicationId "mx.ecoruta.app"
+        minSdk 26
+        targetSdk 36
+        versionCode 1
+        versionName "0.9-beta"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            // Seguridad: el código de la versión final se reduce y se ofusca (difícil de copiar)
+            optimization {
+                enable true
+            }
+            signingConfig signingConfigs.debug
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    lint {
+        abortOnError true
+        warningsAsErrors false
+    }
+}
+
+dependencies {
+    implementation libs.activity.ktx
+    implementation libs.appcompat
+    implementation libs.constraintlayout
+    implementation libs.material
+    implementation libs.firebase.auth
+    implementation libs.firebase.database
+    testImplementation libs.junit
+    testImplementation libs.org.json
+    androidTestImplementation libs.espresso.core
+    androidTestImplementation libs.ext.junit
+}

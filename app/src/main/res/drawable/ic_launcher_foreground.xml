@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ícono de EcoRuta: una hoja verde con su tallo y las letras ECO (dibujo propio) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Se achica para que quepa completo dentro del círculo del ícono -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.68"
+        android:scaleY="0.68"
+        android:translateX="-1"
+        android:translateY="0">
+
+    <!-- Tallo -->
+    <path
+        android:pathData="M12,64 L24,60.5"
+        android:strokeWidth="3.4"
+        android:strokeColor="#FF388E3C"
+        android:strokeLineCap="round" />
+
+    <!-- Hoja -->
+    <path
+        android:fillColor="#FF4CAF50"
+        android:pathData="M22,60.5 C24,28 70,18 92,29 C91,68 55,86 22,60.5 Z" />
+
+    <!-- Lado de sombra de la hoja -->
+    <path
+        android:fillColor="#FF388E3C"
+        android:pathData="M22,60.5 C42,69 74,62 92,29 C91,68 55,86 22,60.5 Z" />
+
+    <!-- E -->
+    <path
+        android:pathData="M38,48 L38,63 M38,48 L44.5,48 M38,55.5 L43.5,55.5 M38,63 L44.5,63"
+        android:strokeWidth="3.4"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- C (en verde oscuro, como letra central) -->
+    <path
+        android:pathData="M57,49.5 A6.3,7.6 0,1,0 57,61.5"
+        android:strokeWidth="3.8"
+        android:strokeColor="#FF1B5E20"
+        android:strokeLineCap="round" />
+
+    <!-- O -->
+    <path
+        android:pathData="M68,48 A5,7.5 0,1,1 68,63 A5,7.5 0,1,1 68,48 Z"
+        android:strokeWidth="3.4"
+        android:strokeColor="#FFFFFFFF" />
+    </group>
+</vector>

@@ -1,0 +1,29 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+
+    "usuarios": {
+      "$uid": {
+        "acciones": {
+          ".read": "auth != null && auth.uid === $uid",
+          ".indexOn": ["fecha"],
+          "$accion": {
+            ".write": "auth != null && auth.uid === $uid",
+            ".validate": "newData.hasChildren(['tipo', 'cantidad', 'fecha'])",
+            "tipo": { ".validate": "newData.isString() && newData.val().matches(/^(RECICLAJE|TRANSPORTE|AGUA|ENERGIA|REFORESTACION)$/)" },
+            "cantidad": { ".validate": "newData.isNumber() && newData.val() >= 1 && newData.val() <= 1000" },
+            "fecha": { ".validate": "newData.isNumber() && newData.val() <= now + 60000" },
+            "notaCifrada": { ".validate": "newData.isString() && newData.val().length <= 1024" },
+            "$otro": { ".validate": false }
+          }
+        }
+      }
+    },
+
+    "puntos_reciclaje": {
+      ".read": "auth != null",
+      ".write": false
+    }
+  }
+}

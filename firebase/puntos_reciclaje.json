@@ -1,0 +1,24 @@
+{
+  "puntos_reciclaje": {
+    "p1": {
+      "nombre": "Mercado de Trueque",
+      "direccion": "Bosque de Chapultepec, Ciudad de México (segundo domingo de cada mes)",
+      "acepta": "papel, cartón, vidrio, PET, latas, tetrapak"
+    },
+    "p2": {
+      "nombre": "Centro de acopio municipal",
+      "direccion": "Pregunta en tu municipio por el más cercano",
+      "acepta": "PET, latas de aluminio, cartón"
+    },
+    "p3": {
+      "nombre": "Composta escolar",
+      "direccion": "Jardín de la escuela",
+      "acepta": "cáscaras, restos de fruta y verdura, hojas secas"
+    },
+    "p4": {
+      "nombre": "Contenedor de pilas",
+      "direccion": "Tiendas de autoservicio y algunas escuelas",
+      "acepta": "pilas y baterías usadas"
+    }
+  }
+}

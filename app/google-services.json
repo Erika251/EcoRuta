@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "98513021100",
+    "firebase_url": "https://ecoruta-8e2f7-default-rtdb.firebaseio.com",
+    "project_id": "ecoruta-8e2f7",
+    "storage_bucket": "ecoruta-8e2f7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98513021100:android:f93fcff410fcbe80bd9709",
+        "android_client_info": {
+          "package_name": "mx.ecoruta.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwW1JFz6DGBGxY1eqkCmj0GKSXMu3xLjI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/verde_claro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tvHola"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvPuntos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="12dp"
+            android:gravity="center"
+            android:text="0 EcoPuntos"
+            android:textColor="@color/verde_oscuro"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btRegistrarAccion"
+            style="@style/BotonMenu"
+            android:text="➕  Registrar una acción" />
+
+        <Button
+            android:id="@+id/btMisAcciones"
+            style="@style/BotonMenu"
+            android:text="📋  Mis acciones" />
+
+        <Button
+            android:id="@+id/btAire"
+            style="@style/BotonMenu"
+            android:text="☁  Calidad del aire" />
+
+        <Button
+            android:id="@+id/btReciclaje"
+            style="@style/BotonMenu"
+            android:text="♻  Puntos de reciclaje" />
+
+        <Button
+            android:id="@+id/btSalir"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Cerrar sesión"
+            android:textAllCaps="false" />
+    </LinearLayout>
+</ScrollView>

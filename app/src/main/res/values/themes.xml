@@ -1,0 +1,24 @@
+<resources>
+    <!-- Tema verde de EcoRuta -->
+    <!-- Siempre claro: los fondos de la app son claros, así el texto se lee aunque el celular esté en modo oscuro -->
+    <style name="Theme.EcoRuta" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="android:windowBackground">@color/verde_claro</item>
+        <item name="colorPrimary">@color/verde</item>
+        <item name="colorPrimaryVariant">@color/verde_oscuro</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/azul</item>
+        <item name="colorSecondaryVariant">@color/azul</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <!-- Botones grandes del menú -->
+    <style name="BotonMenu" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:minHeight">60dp</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- El mismo logo del ícono, recortado para mostrarlo grande en la pantalla de entrada -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="149dp"
+    android:height="100dp"
+    android:viewportWidth="85"
+    android:viewportHeight="57">
+
+    <group
+        android:translateX="-9.5"
+        android:translateY="-23">
+
+        <path
+            android:pathData="M12,64 L24,60.5"
+            android:strokeWidth="3.4"
+            android:strokeColor="#FF388E3C"
+            android:strokeLineCap="round" />
+
+        <path
+            android:fillColor="#FF4CAF50"
+            android:pathData="M22,60.5 C24,28 70,18 92,29 C91,68 55,86 22,60.5 Z" />
+
+        <path
+            android:fillColor="#FF388E3C"
+            android:pathData="M22,60.5 C42,69 74,62 92,29 C91,68 55,86 22,60.5 Z" />
+
+        <path
+            android:pathData="M38,48 L38,63 M38,48 L44.5,48 M38,55.5 L43.5,55.5 M38,63 L44.5,63"
+            android:strokeWidth="3.4"
+            android:strokeColor="#FFFFFFFF"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+
+        <path
+            android:pathData="M57,49.5 A6.3,7.6 0,1,0 57,61.5"
+            android:strokeWidth="3.8"
+            android:strokeColor="#FF1B5E20"
+            android:strokeLineCap="round" />
+
+        <path
+            android:pathData="M68,48 A5,7.5 0,1,1 68,63 A5,7.5 0,1,1 68,48 Z"
+            android:strokeWidth="3.4"
+            android:strokeColor="#FFFFFFFF" />
+    </group>
+</vector>
